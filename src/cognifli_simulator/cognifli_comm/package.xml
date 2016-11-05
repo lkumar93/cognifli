@@ -1,0 +1,21 @@
+<package>
+  <name>cognifli_comm</name>
+  <version>2.0.1</version>
+  <description>Cognifli specific messages and services.</description>
+
+  <maintainer email="todo@umd.edu">UMD Drone Lab</maintainer>
+
+  <license>TODO</license>
+
+  <!-- Dependencies which this package needs to build itself. -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Dependencies needed to compile this package. -->
+  <build_depend>message_generation</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>octomap_msgs</build_depend>
+  <build_depend>cmake_modules</build_depend>
+
+  <!-- Dependencies needed after this package is compiled. -->
+  <run_depend>message_runtime</run_depend>
+</package>
